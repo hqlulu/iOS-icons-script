@@ -60,6 +60,12 @@ function main() {
 		{"name": "iTunesArtwork@2x", "size":1024},
 		{"name": "iTunesArtwork", "size":512},
 		
+		//wechat
+		{"name": "wechat-16", "size":16},
+		{"name": "wechat-28", "size":28},
+		{"name": "wechat-96", "size":96},
+		{"name": "wechat-108", "size":108},
+		
 		{"name": "Icon-29", "size":29},
 		{"name": "Icon-29@2x", "size":58},
 		{"name": "Icon-29@3x", "size":87},
@@ -108,7 +114,7 @@ function main() {
 		doc.activeHistoryState = initialState;
 	}
 
-	alert("Success!\nAll iOS icons created and saved. Fuck yeah. 🎉 🍺");
+	alert("Success!\nAll iOS icons created and saved. Fuck yeah.");
 
 	doc.close(SaveOptions.DONOTSAVECHANGES);
 	
